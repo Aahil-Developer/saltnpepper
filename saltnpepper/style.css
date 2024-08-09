@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+}
+ .navbar{
+    display: flex;
+    align-items: center;
+    background-color:black ;
+    color: white;
+    height: 93px;
+ }
+ .navbar img{
+    width: 165px;
+    height: 72px;
+    margin-left: 24rem;
+ }
+ .navbar ul{
+    display:flex ;
+    text-decoration: none;
+    margin-left: 14rem;
+ }
+ .navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2.5rem;
+ }
+ .btns{
+    margin-left: 3rem;
+ }
+
+ .btns button{
+    width:146px ;
+    height:54px ;
+    border-radius: 4rem;
+ }
+
+ .btn1{
+    background-color: transparent;
+    color:white ;
+    border: 1px solid white;
+
+ }
+ .btn2{
+    background-color:red ;
+    color: white;
+    margin-left: 1rem;
+    border: 1px solid white;
+}
+
+.imag img{
+    width:100%;
+    height:81vh;
+}
+.box{
+    background-color: black;
+    color: white;
+    height: 623px;
+}
+
+.half-box{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+.half-box h1{
+    font-size: 40px;
+    margin-top: 4rem;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 100;
+}
+.half-box h1 span{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 52px;
+}
+.para{
+  margin-left: 33%;
+  margin-top: 1rem;
+}
+
+.para p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.boxes{
+    display: flex;
+    margin-left: 26%;
+
+}
+.boxes img{
+    width: 250px;
+    height:140px ;
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border-radius: 2px;
+}
+/* .box1{
+    display: block;
+} */
+
+.butn button{
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    width:174px ;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.full-box{
+    height: 1317.59px;
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+.elo{
+    display: flex;
+    justify-content: center;
+}
+.full-box h1{
+    font-size: 48px;
+    margin-top: 4rem;
+    font-weight: 100;
+}
+.full-box h1 span{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 52px;
+    margin-left: 5rem;
+}
+.res1 h6{
+    color: red;
+    font-size: 16px;
+    word-wrap:break-word;
+}
